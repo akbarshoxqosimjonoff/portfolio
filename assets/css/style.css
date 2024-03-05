@@ -30,7 +30,7 @@
    * typography
    */
 
-  --ff-saira-stencil-one: "Saira Stencil One", sans-serif; 
+  --ff-saira-stencil-one: "Saira Stencil One", sans-serif;
   --ff-poppins: 'Poppins', sans-serif;
   --ff-roboto: 'Roboto', sans-serif;
 
@@ -176,7 +176,7 @@ body.active { overflow: hidden; }
  * #REUSED STYLE
 \*-----------------------------------*/
 
-.container { padding-inline: 10px; }
+.container { padding-inline: 20px; }
 
 .h1 {
   font-size: var(--fs-1);
@@ -463,7 +463,7 @@ body.active { overflow: hidden; }
 main { overflow-x: hidden; }
 
 .hero {
-  min-height: 100vh;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -971,6 +971,9 @@ textarea.input-field {
   .container { max-width: 720px; }
 
   .section-title { max-width: 430px; }
+  .hero{
+    min-height: 10px;
+  }
 
 
 
